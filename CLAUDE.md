@@ -37,7 +37,7 @@ Orelly_Design_Patterns_in_Java/
 ├── Chapter 7/                       # No code examples
 ├── Chapter 8/                       # No code examples
 ├── Chapter 9/                       # Factory & Singleton Patterns
-│   └── src/com/scispike/creational/
+│   └── src/com/scispike/creationalpatterns/
 ├── Chapter 10/                      # Observer Pattern
 │   └── src/com/scispike/observer/
 │       ├── library/
@@ -59,7 +59,7 @@ Orelly_Design_Patterns_in_Java/
 | 4 | **Proxy** | `com.scispike.proxy` | `Main.java` | None |
 | 5 | **Adapter** | `com.scispike.adapter` | `Main.java` | Maven, commons-logging, log4j |
 | 6 | **Decorator** | `com.scispike.decorator` | `Main.java` | java.awt.* |
-| 9 | **Factory/Singleton** | `com.scispike.creational` | `Main.java`, `Client.java` | None |
+| 9 | **Factory/Singleton** | `com.scispike.creationalpatterns` | `Main.java`, `Client.java` | None |
 | 10 | **Observer** | `com.scispike.observer` | `Driver.java`, `Setup.java` | None |
 | 11 | **Command** | `com.scispike.command` | `Demo.java` | None |
 | 12 | **Template Method** | `com.scispike.template` | `Main.java` | java.awt.* |
@@ -124,7 +124,7 @@ Chapters 1, 2, 7, 8, and 14 contain only reading materials (marked as "No Work F
 - Shape hierarchy (Factory pattern)
 - `LogManager` (Singleton pattern)
 
-**Location:** `/Chapter 9/src/com/scispike/creational/`
+**Location:** `/Chapter 9/src/com/scispike/creationalpatterns/`
 
 ### Behavioral Patterns
 
@@ -213,7 +213,7 @@ mvn exec:java -Dexec.mainClass="com.scispike.adapter.Main"
 
 ### Git Workflow
 
-**Current Branch:** `claude/claude-md-mhy21pqg52u502hy-011zijg87iJujLGbSKy1MQSo`
+**Current Branch:** `claude/claude-md-mhy33np2nw085isk-01WPnh2EgLNjCiv3yYXde5Hv`
 
 **Important Git Rules:**
 - Always develop on the designated `claude/` branch
@@ -225,7 +225,7 @@ mvn exec:java -Dexec.mainClass="com.scispike.adapter.Main"
 ```bash
 git add .
 git commit -m "Description of changes"
-git push -u origin claude/claude-md-mhy21pqg52u502hy-011zijg87iJujLGbSKy1MQSo
+git push -u origin claude/claude-md-mhy33np2nw085isk-01WPnh2EgLNjCiv3yYXde5Hv
 ```
 
 ### IDE Configuration
@@ -254,7 +254,7 @@ com.scispike.<pattern-name>
 - `com.scispike.proxy` - Proxy pattern
 - `com.scispike.adapter` - Adapter pattern
 - `com.scispike.decorator` - Decorator pattern
-- `com.scispike.creational` - Creational patterns
+- `com.scispike.creationalpatterns` - Creational patterns
 - `com.scispike.observer` - Observer pattern
 - `com.scispike.command` - Command pattern
 - `com.scispike.template` - Template Method pattern
@@ -487,4 +487,4 @@ Each example demonstrates its pattern through a main method. Expected behavior:
 
 **Last Updated:** 2025-11-13
 **Repository:** Orelly_Design_Patterns_in_Java
-**Branch:** claude/claude-md-mhy21pqg52u502hy-011zijg87iJujLGbSKy1MQSo
+**Branch:** claude/claude-md-mhy33np2nw085isk-01WPnh2EgLNjCiv3yYXde5Hv
